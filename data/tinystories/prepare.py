@@ -20,6 +20,7 @@ enc = tiktoken.get_encoding("gpt2")
 
 if __name__ == '__main__':
     dataset = load_dataset("roneneldan/TinyStories", num_proc=num_proc_load_dataset)
+    dataset['val'] = dataset.pop('validation') # rename to match format
 
     # we now want to tokenize the dataset. first define the encoding function (gpt2 bpe)
     def process(example):
