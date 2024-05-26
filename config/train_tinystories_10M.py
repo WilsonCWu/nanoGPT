@@ -1,6 +1,6 @@
 # Based of train_chakespeare_char
 
-out_dir = 'out-shakespeare-char'
+out_dir = 'out-tinystories'
 eval_interval = 1000
 eval_iters = 200
 log_interval = 10
