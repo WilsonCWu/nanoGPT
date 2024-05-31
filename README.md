@@ -1,4 +1,11 @@
+----
+reproed scaled up version of this here
+https://drive.google.com/file/d/1y7JrDpriTvAynJTkhhd6ECofR3kXSb8q/view?usp=sharing
+misc nanogpt improvements from quick eyeball
+* 
 
+https://www.youtube.com/watch?v=kCc8FmEb1nY
+----
 # nanoGPT
 
 ![nanoGPT](assets/nanogpt.jpg)
