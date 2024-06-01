@@ -2,7 +2,16 @@
 reproed scaled up version of this here
 https://drive.google.com/file/d/1y7JrDpriTvAynJTkhhd6ECofR3kXSb8q/view?usp=sharing
 misc nanogpt improvements from quick eyeball
-* 
+* heads are stored as 1 big tensor
+* flash attention - faster, no longer n^2 memory
+* bfloat16
+* pytorch compile
+* uses GELU like in gpt2 paper
+* can load from gpt2 checkpoints
+* estimator for gpu efficiency
+* logging to wandb
+* DDP in pytorch
+* can save and load checkpoints, can load configs
 
 https://www.youtube.com/watch?v=kCc8FmEb1nY
 ----
